@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.DS_Store
+
+# output: contains your saved posts, avatars and categories — keep it local
+runs/
