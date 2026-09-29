@@ -151,7 +151,6 @@ source = { editable = "." }
 dependencies = [
     { name = "browser-harness" },
     { name = "httpx", extra = ["http2"] },
-    { name = "jev-ultrafast" },
 ]
 
 [package.dev-dependencies]
@@ -163,20 +162,10 @@ dev = [
 requires-dist = [
     { name = "browser-harness", specifier = "==0.1.13" },
     { name = "httpx", extras = ["http2"], specifier = ">=0.28,<1" },
-    { name = "jev-ultrafast", git = "https://github.com/browser-use/jev-ultrafast.git" },
 ]
 
 [package.metadata.requires-dev]
 dev = [{ name = "ruff", specifier = ">=0.14,<1" }]
-
-[[package]]
-name = "jev-ultrafast"
-version = "0.1.0"
-source = { git = "https://github.com/browser-use/jev-ultrafast.git#1231850a0bf1a0c0341fe408ef1668dbbfdfac46" }
-dependencies = [
-    { name = "browser-harness" },
-    { name = "httpx", extra = ["http2"] },
-]
 
 [[package]]
 name = "pillow"

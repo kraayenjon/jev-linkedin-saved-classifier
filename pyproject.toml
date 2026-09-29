@@ -1,14 +1,13 @@
 [project]
 name = "jev-linkedin-saved-classifier"
 version = "0.1.0"
-description = "Read your LinkedIn saved posts into a filterable board, classified by Jev."
+description = "Read your LinkedIn saved posts and let Jev sort them into your categories."
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.12"
 dependencies = [
     "browser-harness==0.1.13",
     "httpx[http2]>=0.28,<1",
-    "jev-ultrafast @ git+https://github.com/browser-use/jev-ultrafast.git",
 ]
 
 [project.scripts]
@@ -17,9 +16,6 @@ jev-linkedin-saved = "jev_linkedin_saved.cli:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
-[tool.hatch.metadata]
-allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/jev_linkedin_saved"]
@@ -32,3 +28,7 @@ line-length = 120
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
+
+# dashboard.py carries long literal lines inside its HTML/CSS/JS template string.
+[tool.ruff.lint.per-file-ignores]
+"src/jev_linkedin_saved/dashboard.py" = ["E501"]

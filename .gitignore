@@ -8,3 +8,4 @@ __pycache__/
 
 # output: contains your saved posts, avatars and categories — keep it local
 runs/
+categories.json

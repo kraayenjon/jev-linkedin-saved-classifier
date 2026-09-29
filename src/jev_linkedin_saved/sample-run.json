@@ -1,0 +1,7031 @@
+{
+ "demo": true,
+ "source_url": "bundled sample (fake authors and text)",
+ "posts": [
+  {
+   "activity_urn": "demo0000",
+   "author": "Robin Moreau",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "3w •",
+   "post_text": "5 on-page changes that moved our rankings in 30 days.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 0.89,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.09,
+    "SEO & Search": 0.91,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 482,
+    "cost": 3.486e-05
+   }
+  },
+  {
+   "activity_urn": "demo0001",
+   "author": "Sam Novak",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "3w •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.98,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Business & Strategy": 0.02,
+    "AI & Automation": 0.98,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 455,
+    "cost": 3.8472e-05
+   }
+  },
+  {
+   "activity_urn": "demo0002",
+   "author": "Theo Chen",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1mo •",
+   "post_text": "Our organic traffic doubled after we fixed internal links. The checklist inside.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 0.98,
+   "probabilities": {
+    "Dev & Product": 0.01,
+    "AI & Automation": 0,
+    "Business & Strategy": 0,
+    "SEO & Search": 0.99,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 693,
+    "cost": 3.885e-05
+   }
+  },
+  {
+   "activity_urn": "demo0003",
+   "author": "Jordan Varga",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.91,
+   "probabilities": {
+    "Other": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.07,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0.93,
+    "Content & Creator": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 669,
+    "cost": 4.116e-05
+   }
+  },
+  {
+   "activity_urn": "demo0004",
+   "author": "Jamie Novak",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "3w •",
+   "post_text": "Our organic traffic doubled after we fixed internal links. The checklist inside.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0,
+    "SEO & Search": 1
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 584,
+    "cost": 4.5444e-05
+   }
+  },
+  {
+   "activity_urn": "demo0005",
+   "author": "Theo Silva",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1mo •",
+   "post_text": "The business model mistake I made in my first startup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.94,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "AI & Automation": 0.01,
+    "Business & Strategy": 0.95,
+    "Design & UX": 0,
+    "Dev & Product": 0.03,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0.01
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 379,
+    "cost": 3.3432e-05
+   }
+  },
+  {
+   "activity_urn": "demo0006",
+   "author": "Theo Chen",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "4mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.95,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0.04,
+    "SEO & Search": 0,
+    "AI & Automation": 0.96,
+    "Design & UX": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 374,
+    "cost": 4.0236e-05
+   }
+  },
+  {
+   "activity_urn": "demo0007",
+   "author": "Jamie Chen",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "5mo •",
+   "post_text": "Bootstrapped to profitability: the numbers, month by month.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.92,
+   "probabilities": {
+    "Dev & Product": 0.04,
+    "Business & Strategy": 0.93,
+    "AI & Automation": 0.03,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 352,
+    "cost": 6.9678e-05
+   }
+  },
+  {
+   "activity_urn": "demo0008",
+   "author": "Noa Moreau",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "5mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 740,
+    "cost": 3.3096e-05
+   }
+  },
+  {
+   "activity_urn": "demo0009",
+   "author": "Quinn Berg",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "5mo •",
+   "post_text": "A simple rule for code reviews that saved us hours.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.92,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0.04,
+    "Growth & Marketing": 0.01,
+    "Other": 0.01,
+    "Dev & Product": 0.93,
+    "AI & Automation": 0.01,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 389,
+    "cost": 5.0316e-05
+   }
+  },
+  {
+   "activity_urn": "demo0010",
+   "author": "Theo Okafor",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "5mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Other": 0,
+    "AI & Automation": 1,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 426,
+    "cost": 4.2924e-05
+   }
+  },
+  {
+   "activity_urn": "demo0011",
+   "author": "Lucia Novak",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "7mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 410,
+    "cost": 4.725e-05
+   }
+  },
+  {
+   "activity_urn": "demo0012",
+   "author": "Riley Nilsen",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "8mo •",
+   "post_text": "Distribution beats product until it doesn't. A thread on positioning.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.43,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0.01,
+    "Business & Strategy": 0.01,
+    "Growth & Marketing": 0.49,
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.49,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 365,
+    "cost": 4.3638e-05
+   }
+  },
+  {
+   "activity_urn": "demo0013",
+   "author": "Lena Costa",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "9mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.8,
+   "probabilities": {
+    "Dev & Product": 0.18,
+    "Business & Strategy": 0,
+    "AI & Automation": 0.82,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 372,
+    "cost": 3.1164e-05
+   }
+  },
+  {
+   "activity_urn": "demo0014",
+   "author": "Jamie Berg",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "9mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.96,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "AI & Automation": 0.97,
+    "Career & Mindset": 0,
+    "Dev & Product": 0.03,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 426,
+    "cost": 3.5826e-05
+   }
+  },
+  {
+   "activity_urn": "demo0015",
+   "author": "Theo Weber",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 1,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 476,
+    "cost": 7.7448e-05
+   }
+  },
+  {
+   "activity_urn": "demo0016",
+   "author": "Lena Weber",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "2yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 512,
+    "cost": 3.9942e-05
+   }
+  },
+  {
+   "activity_urn": "demo0017",
+   "author": "Iker Varga",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "3yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.78,
+   "probabilities": {
+    "AI & Automation": 0.8,
+    "Business & Strategy": 0.07,
+    "Career & Mindset": 0.01,
+    "Content & Creator": 0.1,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0.01,
+    "Other": 0.01,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 548,
+    "cost": 7.392e-05
+   }
+  },
+  {
+   "activity_urn": "demo0018",
+   "author": "Morgan Nilsen",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.92,
+   "probabilities": {
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.01,
+    "Design & UX": 0,
+    "Content & Creator": 0.07,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.92
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 382,
+    "cost": 2.8938e-05
+   }
+  },
+  {
+   "activity_urn": "demo0019",
+   "author": "Jordan Duarte",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 370,
+    "cost": 4.452e-05
+   }
+  },
+  {
+   "activity_urn": "demo0020",
+   "author": "Drew Nilsen",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.9,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0.08,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.92,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 377,
+    "cost": 4.683e-05
+   }
+  },
+  {
+   "activity_urn": "demo0021",
+   "author": "Jordan Rossi",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "The business model mistake I made in my first startup.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.72,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0.75,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.01,
+    "AI & Automation": 0.24,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 352,
+    "cost": 5.1492e-05
+   }
+  },
+  {
+   "activity_urn": "demo0022",
+   "author": "Jordan Chen",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "AI & Automation": 1,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 370,
+    "cost": 3.1458e-05
+   }
+  },
+  {
+   "activity_urn": "demo0023",
+   "author": "Theo Costa",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.97,
+   "probabilities": {
+    "AI & Automation": 0.97,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0.03,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 519,
+    "cost": 3.5322e-05
+   }
+  },
+  {
+   "activity_urn": "demo0024",
+   "author": "Kai Lind",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.98,
+   "probabilities": {
+    "Design & UX": 0.01,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0.99,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 387,
+    "cost": 3.8262e-05
+   }
+  },
+  {
+   "activity_urn": "demo0025",
+   "author": "Drew Berg",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "AI & Automation": 1,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 450,
+    "cost": 3.9102e-05
+   }
+  },
+  {
+   "activity_urn": "demo0026",
+   "author": "Sam Okafor",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.99,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0.01,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 397,
+    "cost": 3.7674e-05
+   }
+  },
+  {
+   "activity_urn": "demo0027",
+   "author": "Jamie Park",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 372,
+    "cost": 3.4398e-05
+   }
+  },
+  {
+   "activity_urn": "demo0028",
+   "author": "Jordan Berg",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 347,
+    "cost": 3.3642e-05
+   }
+  },
+  {
+   "activity_urn": "demo0029",
+   "author": "Lucia Rossi",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 348,
+    "cost": 3.9858e-05
+   }
+  },
+  {
+   "activity_urn": "demo0030",
+   "author": "Lucia Rossi",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.98,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.98,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0.02,
+    "Dev & Product": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 422,
+    "cost": 5.6028e-05
+   }
+  },
+  {
+   "activity_urn": "demo0031",
+   "author": "Kai Tanaka",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Dev & Product": 1,
+    "AI & Automation": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 397,
+    "cost": 2.9274e-05
+   }
+  },
+  {
+   "activity_urn": "demo0032",
+   "author": "Casey Moreau",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 434,
+    "cost": 4.4016e-05
+   }
+  },
+  {
+   "activity_urn": "demo0033",
+   "author": "Jamie Rivera",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "The best career advice I got came from a failed project.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Career & Mindset",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 1,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 376,
+    "cost": 3.4356e-05
+   }
+  },
+  {
+   "activity_urn": "demo0034",
+   "author": "Avery Weber",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.6,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.65,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0.35,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 421,
+    "cost": 3.444e-05
+   }
+  },
+  {
+   "activity_urn": "demo0035",
+   "author": "Noa Lind",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "10mo •",
+   "post_text": "Why we raised prices twice in one year.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 1,
+    "Dev & Product": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 512,
+    "cost": 2.8056e-05
+   }
+  },
+  {
+   "activity_urn": "demo0036",
+   "author": "Iker Chen",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Design & UX": 0,
+    "AI & Automation": 1,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 400,
+    "cost": 5.88e-05
+   }
+  },
+  {
+   "activity_urn": "demo0037",
+   "author": "Lucia Park",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Stop building features nobody asked for. How we decide now.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.98,
+   "probabilities": {
+    "AI & Automation": 0.01,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0.99,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 623,
+    "cost": 2.8602e-05
+   }
+  },
+  {
+   "activity_urn": "demo0038",
+   "author": "Kai Silva",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.98,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.01,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 0.99,
+    "Design & UX": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 620,
+    "cost": 4.3596e-05
+   }
+  },
+  {
+   "activity_urn": "demo0039",
+   "author": "Kai Chen",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Why we raised prices twice in one year.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.52,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Business & Strategy": 0.58,
+    "Growth & Marketing": 0.42,
+    "Other": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 514,
+    "cost": 5.1534e-05
+   }
+  },
+  {
+   "activity_urn": "demo0040",
+   "author": "Riley Costa",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.97,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Design & UX": 0.02,
+    "Content & Creator": 0,
+    "AI & Automation": 0.98
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 347,
+    "cost": 4.6368e-05
+   }
+  },
+  {
+   "activity_urn": "demo0041",
+   "author": "Robin Chen",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 0,
+    "Dev & Product": 1,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 466,
+    "cost": 3.003e-05
+   }
+  },
+  {
+   "activity_urn": "demo0042",
+   "author": "Theo Moreau",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 355,
+    "cost": 3.0996e-05
+   }
+  },
+  {
+   "activity_urn": "demo0043",
+   "author": "Mila Rivera",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.59,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0.36,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0.64,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 354,
+    "cost": 4.0194e-05
+   }
+  },
+  {
+   "activity_urn": "demo0044",
+   "author": "Mila Park",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 350,
+    "cost": 5.3466e-05
+   }
+  },
+  {
+   "activity_urn": "demo0045",
+   "author": "Avery Lind",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Deep work blocks changed how my team works.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Career & Mindset",
+   "confidence": 0.85,
+   "probabilities": {
+    "Career & Mindset": 0.87,
+    "AI & Automation": 0,
+    "Business & Strategy": 0.05,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0.08,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 441,
+    "cost": 3.2802e-05
+   }
+  },
+  {
+   "activity_urn": "demo0046",
+   "author": "Taylor Silva",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.87,
+   "probabilities": {
+    "Design & UX": 0.09,
+    "Content & Creator": 0.01,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.89,
+    "Dev & Product": 0.01,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 333,
+    "cost": 2.7678e-05
+   }
+  },
+  {
+   "activity_urn": "demo0047",
+   "author": "Marta Nilsen",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Small UI details that make an app feel fast.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Design & UX",
+   "confidence": 0.56,
+   "probabilities": {
+    "AI & Automation": 0.39,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Design & UX": 0.61
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 419,
+    "cost": 3.6582e-05
+   }
+  },
+  {
+   "activity_urn": "demo0048",
+   "author": "Morgan Silva",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "5 on-page changes that moved our rankings in 30 days.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 0.99,
+   "probabilities": {
+    "SEO & Search": 1,
+    "Content & Creator": 0,
+    "Other": 0,
+    "AI & Automation": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 361,
+    "cost": 3.486e-05
+   }
+  },
+  {
+   "activity_urn": "demo0049",
+   "author": "Avery Nilsen",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 1
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 728,
+    "cost": 3.7212e-05
+   }
+  },
+  {
+   "activity_urn": "demo0050",
+   "author": "Alex Okafor",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "AI & Automation": 0.99,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0.01,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 585,
+    "cost": 4.158e-05
+   }
+  },
+  {
+   "activity_urn": "demo0051",
+   "author": "Lucia Rivera",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Personal brand is just consistent proof of work.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.89,
+   "probabilities": {
+    "Content & Creator": 0.9,
+    "Career & Mindset": 0.05,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0.05,
+    "Other": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 323,
+    "cost": 4.179e-05
+   }
+  },
+  {
+   "activity_urn": "demo0052",
+   "author": "Jordan Rossi",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.52,
+   "probabilities": {
+    "Other": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 0.43,
+    "Growth & Marketing": 0.57,
+    "Design & UX": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 366,
+    "cost": 5.2458e-05
+   }
+  },
+  {
+   "activity_urn": "demo0053",
+   "author": "Drew Tanaka",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Our first 1,000 users came from one channel. Here's which.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.64,
+   "probabilities": {
+    "AI & Automation": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0.68,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0.32,
+    "Career & Mindset": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 393,
+    "cost": 3.6708e-05
+   }
+  },
+  {
+   "activity_urn": "demo0054",
+   "author": "Jamie Okafor",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.87,
+   "probabilities": {
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.89,
+    "Dev & Product": 0.11,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 422,
+    "cost": 3.9396e-05
+   }
+  },
+  {
+   "activity_urn": "demo0055",
+   "author": "Jamie Okafor",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 1,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 412,
+    "cost": 4.242e-05
+   }
+  },
+  {
+   "activity_urn": "demo0056",
+   "author": "Alex Rivera",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Design & UX": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 360,
+    "cost": 3.3558e-05
+   }
+  },
+  {
+   "activity_urn": "demo0057",
+   "author": "Avery Okafor",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.91,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Business & Strategy": 0.08,
+    "Design & UX": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.92
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 351,
+    "cost": 3.8976e-05
+   }
+  },
+  {
+   "activity_urn": "demo0058",
+   "author": "Drew Lind",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.96,
+   "probabilities": {
+    "AI & Automation": 0.96,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0.04,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 718,
+    "cost": 4.3554e-05
+   }
+  },
+  {
+   "activity_urn": "demo0059",
+   "author": "Taylor Tanaka",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 1,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0,
+    "Dev & Product": 1,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 347,
+    "cost": 2.982e-05
+   }
+  },
+  {
+   "activity_urn": "demo0060",
+   "author": "Robin Okafor",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 366,
+    "cost": 4.7712e-05
+   }
+  },
+  {
+   "activity_urn": "demo0061",
+   "author": "Mila Rivera",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Our first 1,000 users came from one channel. Here's which.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 1,
+    "Career & Mindset": 0,
+    "AI & Automation": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 514,
+    "cost": 3.4818e-05
+   }
+  },
+  {
+   "activity_urn": "demo0062",
+   "author": "Drew Novak",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "AI & Automation": 1,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 369,
+    "cost": 3.3768e-05
+   }
+  },
+  {
+   "activity_urn": "demo0063",
+   "author": "Riley Nilsen",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.91,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0.93,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "AI & Automation": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0.07
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 1128,
+    "cost": 4.725e-05
+   }
+  },
+  {
+   "activity_urn": "demo0064",
+   "author": "Robin Novak",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.96,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.97,
+    "Content & Creator": 0.03
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 389,
+    "cost": 4.1538e-05
+   }
+  },
+  {
+   "activity_urn": "demo0065",
+   "author": "Kai Novak",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 368,
+    "cost": 5.5986e-05
+   }
+  },
+  {
+   "activity_urn": "demo0066",
+   "author": "Morgan Rivera",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "A simple rule for code reviews that saved us hours.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.45,
+   "probabilities": {
+    "AI & Automation": 0.48,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0.52,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 559,
+    "cost": 3.0492e-05
+   }
+  },
+  {
+   "activity_urn": "demo0067",
+   "author": "Lena Moreau",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "The business model mistake I made in my first startup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.82,
+   "probabilities": {
+    "AI & Automation": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0.84,
+    "Growth & Marketing": 0.01,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0.01,
+    "Career & Mindset": 0.14,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 639,
+    "cost": 4.368e-05
+   }
+  },
+  {
+   "activity_urn": "demo0068",
+   "author": "Drew Moreau",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Our organic traffic doubled after we fixed internal links. The checklist inside.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 1,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 374,
+    "cost": 3.549e-05
+   }
+  },
+  {
+   "activity_urn": "demo0069",
+   "author": "Alex Silva",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Stop building features nobody asked for. How we decide now.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.85,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.13,
+    "Dev & Product": 0.87,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 419,
+    "cost": 3.7212e-05
+   }
+  },
+  {
+   "activity_urn": "demo0070",
+   "author": "Riley Okafor",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.95,
+   "probabilities": {
+    "Design & UX": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.96,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0,
+    "Content & Creator": 0.04,
+    "Dev & Product": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 366,
+    "cost": 3.7422e-05
+   }
+  },
+  {
+   "activity_urn": "demo0071",
+   "author": "Riley Weber",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.57,
+   "probabilities": {
+    "Design & UX": 0.38,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.62,
+    "SEO & Search": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 414,
+    "cost": 6.174e-05
+   }
+  },
+  {
+   "activity_urn": "demo0072",
+   "author": "Robin Rossi",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Why we raised prices twice in one year.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.5,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Dev & Product": 0.4,
+    "Other": 0,
+    "Business & Strategy": 0.56,
+    "Growth & Marketing": 0.03,
+    "Design & UX": 0,
+    "SEO & Search": 0.01,
+    "AI & Automation": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 642,
+    "cost": 3.2172e-05
+   }
+  },
+  {
+   "activity_urn": "demo0073",
+   "author": "Sam Lind",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Personal brand is just consistent proof of work.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.94,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.05,
+    "Career & Mindset": 0,
+    "Content & Creator": 0.95,
+    "AI & Automation": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 361,
+    "cost": 3.9312e-05
+   }
+  },
+  {
+   "activity_urn": "demo0074",
+   "author": "Theo Varga",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "11mo •",
+   "post_text": "Personal brand is just consistent proof of work.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.91,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0.07,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0.93,
+    "Dev & Product": 0,
+    "AI & Automation": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 348,
+    "cost": 4.1202e-05
+   }
+  },
+  {
+   "activity_urn": "demo0075",
+   "author": "Morgan Rivera",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "How I write one post a day without burning out.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.92,
+   "probabilities": {
+    "Growth & Marketing": 0.06,
+    "AI & Automation": 0,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "Content & Creator": 0.9400000000000001,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 403,
+    "cost": 5.2122e-05
+   }
+  },
+  {
+   "activity_urn": "demo0076",
+   "author": "Mila Rivera",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 319,
+    "cost": 3.5154e-05
+   }
+  },
+  {
+   "activity_urn": "demo0077",
+   "author": "Morgan Nilsen",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.9,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0.01,
+    "AI & Automation": 0.92,
+    "Growth & Marketing": 0.07,
+    "Other": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 401,
+    "cost": 3.4524e-05
+   }
+  },
+  {
+   "activity_urn": "demo0078",
+   "author": "Sam Duarte",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0,
+    "Growth & Marketing": 1,
+    "Other": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 354,
+    "cost": 3.7716e-05
+   }
+  },
+  {
+   "activity_urn": "demo0079",
+   "author": "Lucia Chen",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.57,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "SEO & Search": 0.01,
+    "AI & Automation": 0.62,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0.11,
+    "Other": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0.26
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 376,
+    "cost": 3.15e-05
+   }
+  },
+  {
+   "activity_urn": "demo0080",
+   "author": "Avery Chen",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The business model mistake I made in my first startup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.78,
+   "probabilities": {
+    "Other": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "Business & Strategy": 0.8,
+    "AI & Automation": 0,
+    "Growth & Marketing": 0.18,
+    "Design & UX": 0,
+    "Content & Creator": 0.02
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 352,
+    "cost": 4.8384e-05
+   }
+  },
+  {
+   "activity_urn": "demo0081",
+   "author": "Lena Rivera",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Distribution beats product until it doesn't. A thread on positioning.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.72,
+   "probabilities": {
+    "Design & UX": 0,
+    "Content & Creator": 0.01,
+    "Business & Strategy": 0.23,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Growth & Marketing": 0.76,
+    "AI & Automation": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 398,
+    "cost": 5.6574e-05
+   }
+  },
+  {
+   "activity_urn": "demo0082",
+   "author": "Robin Okafor",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Distribution beats product until it doesn't. A thread on positioning.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.99,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0.01,
+    "Design & UX": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0,
+    "Growth & Marketing": 0.99
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 328,
+    "cost": 3.8388e-05
+   }
+  },
+  {
+   "activity_urn": "demo0083",
+   "author": "Iker Nilsen",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The business model mistake I made in my first startup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.58,
+   "probabilities": {
+    "AI & Automation": 0.34,
+    "Content & Creator": 0.02,
+    "Business & Strategy": 0.63,
+    "Career & Mindset": 0.01,
+    "Dev & Product": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 422,
+    "cost": 5.586e-05
+   }
+  },
+  {
+   "activity_urn": "demo0084",
+   "author": "Iker Rossi",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Distribution beats product until it doesn't. A thread on positioning.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.52,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 0.42,
+    "Other": 0,
+    "Growth & Marketing": 0.58,
+    "Career & Mindset": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 315,
+    "cost": 6.09e-05
+   }
+  },
+  {
+   "activity_urn": "demo0085",
+   "author": "Morgan Varga",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Other": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Content & Creator": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 345,
+    "cost": 3.7506e-05
+   }
+  },
+  {
+   "activity_urn": "demo0086",
+   "author": "Lena Duarte",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.91,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0.92,
+    "Other": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0.08,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 330,
+    "cost": 4.3428e-05
+   }
+  },
+  {
+   "activity_urn": "demo0087",
+   "author": "Jamie Varga",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 362,
+    "cost": 5.8884e-05
+   }
+  },
+  {
+   "activity_urn": "demo0088",
+   "author": "Quinn Silva",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 410,
+    "cost": 4.8048e-05
+   }
+  },
+  {
+   "activity_urn": "demo0089",
+   "author": "Drew Moreau",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.98,
+   "probabilities": {
+    "Growth & Marketing": 0.01,
+    "AI & Automation": 0.98,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0.01,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 346,
+    "cost": 3.7422e-05
+   }
+  },
+  {
+   "activity_urn": "demo0090",
+   "author": "Lena Tanaka",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.91,
+   "probabilities": {
+    "Career & Mindset": 0.05,
+    "Content & Creator": 0.02,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.93,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 386,
+    "cost": 3.7254e-05
+   }
+  },
+  {
+   "activity_urn": "demo0091",
+   "author": "Marta Berg",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.39,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0.09,
+    "Business & Strategy": 0.41,
+    "Design & UX": 0,
+    "Other": 0,
+    "Growth & Marketing": 0.46,
+    "Content & Creator": 0,
+    "AI & Automation": 0.04
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 366,
+    "cost": 3.1668e-05
+   }
+  },
+  {
+   "activity_urn": "demo0092",
+   "author": "Noa Park",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.82,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "AI & Automation": 0.84,
+    "Career & Mindset": 0,
+    "Dev & Product": 0.16,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 336,
+    "cost": 3.4272e-05
+   }
+  },
+  {
+   "activity_urn": "demo0093",
+   "author": "Riley Lind",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "Reposted from n8n • 1yr •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.86,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "AI & Automation": 0.12,
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0.88,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 352,
+    "cost": 3.0492e-05
+   }
+  },
+  {
+   "activity_urn": "demo0094",
+   "author": "Drew Rivera",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.97,
+   "probabilities": {
+    "Dev & Product": 0.02,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.98,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 411,
+    "cost": 3.024e-05
+   }
+  },
+  {
+   "activity_urn": "demo0095",
+   "author": "Lena Costa",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.91,
+   "probabilities": {
+    "Other": 0,
+    "AI & Automation": 0.92,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0.04,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0.04,
+    "Business & Strategy": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 399,
+    "cost": 3.7422e-05
+   }
+  },
+  {
+   "activity_urn": "demo0096",
+   "author": "Robin Weber",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.7,
+   "probabilities": {
+    "Content & Creator": 0,
+    "AI & Automation": 0.74,
+    "Business & Strategy": 0.26,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 371,
+    "cost": 3.2256e-05
+   }
+  },
+  {
+   "activity_urn": "demo0097",
+   "author": "Jamie Silva",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.54,
+   "probabilities": {
+    "Content & Creator": 0.4,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0.6,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 325,
+    "cost": 3.9312e-05
+   }
+  },
+  {
+   "activity_urn": "demo0098",
+   "author": "Avery Chen",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.87,
+   "probabilities": {
+    "AI & Automation": 0.89,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0.09,
+    "Dev & Product": 0.02,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 352,
+    "cost": 3.0198e-05
+   }
+  },
+  {
+   "activity_urn": "demo0099",
+   "author": "Morgan Varga",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Other": 0,
+    "AI & Automation": 1,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 402,
+    "cost": 4.431e-05
+   }
+  },
+  {
+   "activity_urn": "demo0100",
+   "author": "Morgan Nilsen",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "AI & Automation": 0.99,
+    "Business & Strategy": 0.01,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 341,
+    "cost": 5.0148e-05
+   }
+  },
+  {
+   "activity_urn": "demo0101",
+   "author": "Avery Chen",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 351,
+    "cost": 3.5238e-05
+   }
+  },
+  {
+   "activity_urn": "demo0102",
+   "author": "Jordan Rossi",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.56,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 0.61,
+    "Dev & Product": 0.18,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Content & Creator": 0.02,
+    "Career & Mindset": 0.06,
+    "Growth & Marketing": 0.13
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 352,
+    "cost": 4.3134e-05
+   }
+  },
+  {
+   "activity_urn": "demo0103",
+   "author": "Jordan Rossi",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.87,
+   "probabilities": {
+    "AI & Automation": 0.89,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0.1,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0.01,
+    "Career & Mindset": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 349,
+    "cost": 3.6918e-05
+   }
+  },
+  {
+   "activity_urn": "demo0104",
+   "author": "Jamie Novak",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.92,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0.06,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0.9400000000000001,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 331,
+    "cost": 3.4272e-05
+   }
+  },
+  {
+   "activity_urn": "demo0105",
+   "author": "Lena Rivera",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.6,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "Dev & Product": 0.36,
+    "AI & Automation": 0.64,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 697,
+    "cost": 2.8812e-05
+   }
+  },
+  {
+   "activity_urn": "demo0106",
+   "author": "Noa Rossi",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.93,
+   "probabilities": {
+    "Other": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0.06,
+    "AI & Automation": 0.94,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 346,
+    "cost": 3.0954e-05
+   }
+  },
+  {
+   "activity_urn": "demo0107",
+   "author": "Iker Tanaka",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 436,
+    "cost": 3.843e-05
+   }
+  },
+  {
+   "activity_urn": "demo0108",
+   "author": "Avery Chen",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.85,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Other": 0,
+    "SEO & Search": 0.04,
+    "Growth & Marketing": 0.08,
+    "Career & Mindset": 0,
+    "Content & Creator": 0.01,
+    "AI & Automation": 0.87,
+    "Design & UX": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 417,
+    "cost": 3.9816e-05
+   }
+  },
+  {
+   "activity_urn": "demo0109",
+   "author": "Quinn Weber",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.93,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.94,
+    "Content & Creator": 0.06,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 811,
+    "cost": 3.444e-05
+   }
+  },
+  {
+   "activity_urn": "demo0110",
+   "author": "Lena Berg",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.8,
+   "probabilities": {
+    "Design & UX": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0.82,
+    "Growth & Marketing": 0.18,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 702,
+    "cost": 4.5528e-05
+   }
+  },
+  {
+   "activity_urn": "demo0111",
+   "author": "Alex Rossi",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.93,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Dev & Product": 0.94,
+    "AI & Automation": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0.06
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 342,
+    "cost": 3.2634e-05
+   }
+  },
+  {
+   "activity_urn": "demo0112",
+   "author": "Alex Okafor",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "How I write one post a day without burning out.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.57,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0.62,
+    "Growth & Marketing": 0.38,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 389,
+    "cost": 3.591e-05
+   }
+  },
+  {
+   "activity_urn": "demo0113",
+   "author": "Lena Silva",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.97,
+   "probabilities": {
+    "AI & Automation": 0.98,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0.02,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 842,
+    "cost": 3.6372e-05
+   }
+  },
+  {
+   "activity_urn": "demo0114",
+   "author": "Marta Park",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "5 on-page changes that moved our rankings in 30 days.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 1,
+    "AI & Automation": 0,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 380,
+    "cost": 3.7758e-05
+   }
+  },
+  {
+   "activity_urn": "demo0115",
+   "author": "Riley Tanaka",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Design & UX": 0.01,
+    "AI & Automation": 0.99,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 673,
+    "cost": 3.2298e-05
+   }
+  },
+  {
+   "activity_urn": "demo0116",
+   "author": "Morgan Park",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.59,
+   "probabilities": {
+    "Dev & Product": 0.64,
+    "Design & UX": 0.36,
+    "AI & Automation": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 567,
+    "cost": 3.528e-05
+   }
+  },
+  {
+   "activity_urn": "demo0117",
+   "author": "Morgan Rivera",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.53,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0.41,
+    "SEO & Search": 0,
+    "AI & Automation": 0.59,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 389,
+    "cost": 4.3554e-05
+   }
+  },
+  {
+   "activity_urn": "demo0118",
+   "author": "Avery Varga",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Why we raised prices twice in one year.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.92,
+   "probabilities": {
+    "AI & Automation": 0.04,
+    "Career & Mindset": 0,
+    "Dev & Product": 0.02,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Growth & Marketing": 0.01,
+    "Design & UX": 0,
+    "Business & Strategy": 0.93,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 398,
+    "cost": 4.0824e-05
+   }
+  },
+  {
+   "activity_urn": "demo0119",
+   "author": "Jordan Park",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "A simple rule for code reviews that saved us hours.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.84,
+   "probabilities": {
+    "AI & Automation": 0.13,
+    "Business & Strategy": 0.01,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0.86,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 645,
+    "cost": 2.814e-05
+   }
+  },
+  {
+   "activity_urn": "demo0120",
+   "author": "Jamie Weber",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.54,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "AI & Automation": 0.59,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0.41,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 331,
+    "cost": 4.6368e-05
+   }
+  },
+  {
+   "activity_urn": "demo0121",
+   "author": "Casey Berg",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.84,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0.14,
+    "SEO & Search": 0,
+    "AI & Automation": 0,
+    "Content & Creator": 0.86
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 621,
+    "cost": 3.423e-05
+   }
+  },
+  {
+   "activity_urn": "demo0122",
+   "author": "Alex Rossi",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "AI & Automation": 1,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 351,
+    "cost": 5.9346e-05
+   }
+  },
+  {
+   "activity_urn": "demo0123",
+   "author": "Lucia Duarte",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.89,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 0.91,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0.08,
+    "Career & Mindset": 0.01,
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 699,
+    "cost": 3.7842e-05
+   }
+  },
+  {
+   "activity_urn": "demo0124",
+   "author": "Quinn Okafor",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.94,
+   "probabilities": {
+    "Content & Creator": 0.04,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.01,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.95,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 366,
+    "cost": 3.8808e-05
+   }
+  },
+  {
+   "activity_urn": "demo0125",
+   "author": "Alex Duarte",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "Reposted from Ross Symons • 1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.95,
+   "probabilities": {
+    "Content & Creator": 0.01,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Other": 0.03,
+    "AI & Automation": 0.96,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 343,
+    "cost": 2.877e-05
+   }
+  },
+  {
+   "activity_urn": "demo0126",
+   "author": "Marta Rossi",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.86,
+   "probabilities": {
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.88,
+    "Dev & Product": 0.12,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 884,
+    "cost": 4.9434e-05
+   }
+  },
+  {
+   "activity_urn": "demo0127",
+   "author": "Iker Rivera",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.89,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0.9,
+    "Growth & Marketing": 0.08,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.02,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 406,
+    "cost": 3.906e-05
+   }
+  },
+  {
+   "activity_urn": "demo0128",
+   "author": "Jordan Moreau",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 392,
+    "cost": 3.717e-05
+   }
+  },
+  {
+   "activity_urn": "demo0129",
+   "author": "Sam Park",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.71,
+   "probabilities": {
+    "Design & UX": 0,
+    "Content & Creator": 0.2,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0.04,
+    "Dev & Product": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.01,
+    "AI & Automation": 0.75
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 663,
+    "cost": 4.1412e-05
+   }
+  },
+  {
+   "activity_urn": "demo0130",
+   "author": "Quinn Tanaka",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "5 on-page changes that moved our rankings in 30 days.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 0.96,
+   "probabilities": {
+    "AI & Automation": 0.03,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "SEO & Search": 0.97
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 515,
+    "cost": 5.2038e-05
+   }
+  },
+  {
+   "activity_urn": "demo0131",
+   "author": "Iker Moreau",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Stop building features nobody asked for. How we decide now.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 1,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 370,
+    "cost": 3.0114e-05
+   }
+  },
+  {
+   "activity_urn": "demo0132",
+   "author": "Marta Moreau",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.98,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0.01,
+    "AI & Automation": 0.99,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 342,
+    "cost": 4.9896e-05
+   }
+  },
+  {
+   "activity_urn": "demo0133",
+   "author": "Mila Moreau",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 357,
+    "cost": 3.4524e-05
+   }
+  },
+  {
+   "activity_urn": "demo0134",
+   "author": "Iker Varga",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.93,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.9400000000000001,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0.06,
+    "Dev & Product": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 331,
+    "cost": 4.3218e-05
+   }
+  },
+  {
+   "activity_urn": "demo0135",
+   "author": "Iker Rivera",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 399,
+    "cost": 3.8136e-05
+   }
+  },
+  {
+   "activity_urn": "demo0136",
+   "author": "Alex Chen",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.93,
+   "probabilities": {
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0.01,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0.93,
+    "Career & Mindset": 0.05
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 720,
+    "cost": 4.1202e-05
+   }
+  },
+  {
+   "activity_urn": "demo0137",
+   "author": "Drew Silva",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.82,
+   "probabilities": {
+    "Design & UX": 0,
+    "AI & Automation": 0.84,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0.16,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 530,
+    "cost": 5.9682e-05
+   }
+  },
+  {
+   "activity_urn": "demo0138",
+   "author": "Lucia Chen",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.95,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0.96,
+    "Content & Creator": 0,
+    "Career & Mindset": 0.04,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 364,
+    "cost": 4.8552e-05
+   }
+  },
+  {
+   "activity_urn": "demo0139",
+   "author": "Lucia Tanaka",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 526,
+    "cost": 3.2466e-05
+   }
+  },
+  {
+   "activity_urn": "demo0140",
+   "author": "Alex Costa",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Personal brand is just consistent proof of work.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.96,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0.97,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0,
+    "Career & Mindset": 0.03,
+    "Growth & Marketing": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 356,
+    "cost": 3.528e-05
+   }
+  },
+  {
+   "activity_urn": "demo0141",
+   "author": "Iker Novak",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Deep work blocks changed how my team works.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Career & Mindset",
+   "confidence": 1,
+   "probabilities": {
+    "Other": 0,
+    "Career & Mindset": 1,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 352,
+    "cost": 4.1076e-05
+   }
+  },
+  {
+   "activity_urn": "demo0142",
+   "author": "Avery Novak",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.92,
+   "probabilities": {
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.93,
+    "Dev & Product": 0.07,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 373,
+    "cost": 5.7708e-05
+   }
+  },
+  {
+   "activity_urn": "demo0143",
+   "author": "Riley Tanaka",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Distribution beats product until it doesn't. A thread on positioning.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.82,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0.84,
+    "Business & Strategy": 0.16,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 717,
+    "cost": 4.284e-05
+   }
+  },
+  {
+   "activity_urn": "demo0144",
+   "author": "Kai Novak",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.77,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0.04,
+    "Other": 0,
+    "Content & Creator": 0.15,
+    "Dev & Product": 0,
+    "AI & Automation": 0.81,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 386,
+    "cost": 4.4016e-05
+   }
+  },
+  {
+   "activity_urn": "demo0145",
+   "author": "Quinn Chen",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.63,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0.32,
+    "Other": 0,
+    "Growth & Marketing": 0.68,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 655,
+    "cost": 4.4856e-05
+   }
+  },
+  {
+   "activity_urn": "demo0146",
+   "author": "Mila Moreau",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.99,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0.99,
+    "Other": 0,
+    "Growth & Marketing": 0.01
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 328,
+    "cost": 3.36e-05
+   }
+  },
+  {
+   "activity_urn": "demo0147",
+   "author": "Quinn Moreau",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Dev & Product": 0.01,
+    "AI & Automation": 0.99,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 735,
+    "cost": 3.57e-05
+   }
+  },
+  {
+   "activity_urn": "demo0148",
+   "author": "Sam Nilsen",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "5 on-page changes that moved our rankings in 30 days.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 0.99,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 1,
+    "Other": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 385,
+    "cost": 3.9942e-05
+   }
+  },
+  {
+   "activity_urn": "demo0149",
+   "author": "Taylor Okafor",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.91,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Design & UX": 0.01,
+    "Dev & Product": 0.07,
+    "AI & Automation": 0.92,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 437,
+    "cost": 3.2634e-05
+   }
+  },
+  {
+   "activity_urn": "demo0150",
+   "author": "Iker Weber",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.93,
+   "probabilities": {
+    "AI & Automation": 0.95,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0.02,
+    "Other": 0,
+    "Growth & Marketing": 0.02,
+    "Design & UX": 0.01,
+    "Career & Mindset": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 409,
+    "cost": 3.2844e-05
+   }
+  },
+  {
+   "activity_urn": "demo0151",
+   "author": "Lena Silva",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "How AI Overviews changed which pages get clicks.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 0.91,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0.92,
+    "AI & Automation": 0.07,
+    "Other": 0,
+    "Growth & Marketing": 0.01,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 409,
+    "cost": 4.3722e-05
+   }
+  },
+  {
+   "activity_urn": "demo0152",
+   "author": "Jordan Nilsen",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.95,
+   "probabilities": {
+    "Dev & Product": 0.01,
+    "Other": 0,
+    "Business & Strategy": 0.03,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 0.96,
+    "Design & UX": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 398,
+    "cost": 3.5742e-05
+   }
+  },
+  {
+   "activity_urn": "demo0153",
+   "author": "Lena Novak",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.94,
+   "probabilities": {
+    "Growth & Marketing": 0.04,
+    "AI & Automation": 0,
+    "Content & Creator": 0.95,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Career & Mindset": 0.01
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 368,
+    "cost": 0.00010059
+   }
+  },
+  {
+   "activity_urn": "demo0154",
+   "author": "Kai Okafor",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 460,
+    "cost": 4.0908e-05
+   }
+  },
+  {
+   "activity_urn": "demo0155",
+   "author": "Theo Novak",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "AI & Automation": 1,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 351,
+    "cost": 4.1706e-05
+   }
+  },
+  {
+   "activity_urn": "demo0156",
+   "author": "Iker Rossi",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Why we raised prices twice in one year.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.78,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Business & Strategy": 0.81,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.07,
+    "AI & Automation": 0.12,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 431,
+    "cost": 4.4394e-05
+   }
+  },
+  {
+   "activity_urn": "demo0157",
+   "author": "Mila Rossi",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 1,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 384,
+    "cost": 3.9018e-05
+   }
+  },
+  {
+   "activity_urn": "demo0158",
+   "author": "Drew Tanaka",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.58,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.63,
+    "SEO & Search": 0,
+    "Dev & Product": 0.37,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 386,
+    "cost": 3.402e-05
+   }
+  },
+  {
+   "activity_urn": "demo0159",
+   "author": "Kai Rivera",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.99,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0.99,
+    "AI & Automation": 0,
+    "Content & Creator": 0.01
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 374,
+    "cost": 3.8346e-05
+   }
+  },
+  {
+   "activity_urn": "demo0160",
+   "author": "Marta Costa",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.98,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Content & Creator": 0.99,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Design & UX": 0.01
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 431,
+    "cost": 4.0908e-05
+   }
+  },
+  {
+   "activity_urn": "demo0161",
+   "author": "Morgan Varga",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 359,
+    "cost": 4.6662e-05
+   }
+  },
+  {
+   "activity_urn": "demo0162",
+   "author": "Robin Silva",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.95,
+   "probabilities": {
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.97,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0.03,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 401,
+    "cost": 3.7044e-05
+   }
+  },
+  {
+   "activity_urn": "demo0163",
+   "author": "Robin Duarte",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 321,
+    "cost": 6.9762e-05
+   }
+  },
+  {
+   "activity_urn": "demo0164",
+   "author": "Riley Rivera",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 358,
+    "cost": 4.326e-05
+   }
+  },
+  {
+   "activity_urn": "demo0165",
+   "author": "Drew Novak",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.86,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0.89,
+    "Growth & Marketing": 0.06,
+    "Career & Mindset": 0.05,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 367,
+    "cost": 3.3894e-05
+   }
+  },
+  {
+   "activity_urn": "demo0166",
+   "author": "Theo Novak",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 346,
+    "cost": 5.2584e-05
+   }
+  },
+  {
+   "activity_urn": "demo0167",
+   "author": "Avery Chen",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 1,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 326,
+    "cost": 4.5696e-05
+   }
+  },
+  {
+   "activity_urn": "demo0168",
+   "author": "Sam Weber",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.86,
+   "probabilities": {
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Growth & Marketing": 0.12,
+    "AI & Automation": 0.88,
+    "Dev & Product": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 351,
+    "cost": 3.423e-05
+   }
+  },
+  {
+   "activity_urn": "demo0169",
+   "author": "Avery Varga",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 382,
+    "cost": 4.0488e-05
+   }
+  },
+  {
+   "activity_urn": "demo0170",
+   "author": "Drew Varga",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The business model mistake I made in my first startup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.79,
+   "probabilities": {
+    "Other": 0.09,
+    "Career & Mindset": 0.02,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0.06,
+    "Dev & Product": 0.01,
+    "AI & Automation": 0,
+    "Content & Creator": 0.01,
+    "Business & Strategy": 0.81
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 472,
+    "cost": 3.99e-05
+   }
+  },
+  {
+   "activity_urn": "demo0171",
+   "author": "Kai Okafor",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 378,
+    "cost": 4.7166e-05
+   }
+  },
+  {
+   "activity_urn": "demo0172",
+   "author": "Noa Costa",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.88,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.9,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0.01,
+    "SEO & Search": 0,
+    "Dev & Product": 0.09,
+    "Other": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 315,
+    "cost": 2.8812e-05
+   }
+  },
+  {
+   "activity_urn": "demo0173",
+   "author": "Quinn Nilsen",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Our first 1,000 users came from one channel. Here's which.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.97,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0.97,
+    "Other": 0,
+    "Business & Strategy": 0.03,
+    "AI & Automation": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 329,
+    "cost": 3.2214e-05
+   }
+  },
+  {
+   "activity_urn": "demo0174",
+   "author": "Morgan Berg",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.89,
+   "probabilities": {
+    "AI & Automation": 0.9,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0.03,
+    "Other": 0,
+    "Growth & Marketing": 0.01,
+    "Design & UX": 0.06,
+    "Business & Strategy": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 489,
+    "cost": 6.8754e-05
+   }
+  },
+  {
+   "activity_urn": "demo0175",
+   "author": "Robin Weber",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.94,
+   "probabilities": {
+    "Other": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0,
+    "Growth & Marketing": 0.05,
+    "Design & UX": 0,
+    "Content & Creator": 0.95
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 335,
+    "cost": 5.3088e-05
+   }
+  },
+  {
+   "activity_urn": "demo0176",
+   "author": "Avery Park",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "We removed half the onboarding screens. Activation went up.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Design & UX",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0,
+    "Design & UX": 1,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 365,
+    "cost": 3.4734e-05
+   }
+  },
+  {
+   "activity_urn": "demo0177",
+   "author": "Marta Park",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 408,
+    "cost": 5.0946e-05
+   }
+  },
+  {
+   "activity_urn": "demo0178",
+   "author": "Casey Novak",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 425,
+    "cost": 3.5952e-05
+   }
+  },
+  {
+   "activity_urn": "demo0179",
+   "author": "Marta Tanaka",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.92,
+   "probabilities": {
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0.93,
+    "Dev & Product": 0,
+    "AI & Automation": 0.01,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0.06
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 354,
+    "cost": 6.0438e-05
+   }
+  },
+  {
+   "activity_urn": "demo0180",
+   "author": "Lena Varga",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.95,
+   "probabilities": {
+    "AI & Automation": 0.96,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0.04,
+    "Other": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 688,
+    "cost": 4.326e-05
+   }
+  },
+  {
+   "activity_urn": "demo0181",
+   "author": "Riley Tanaka",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.87,
+   "probabilities": {
+    "Business & Strategy": 0.07,
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0.89,
+    "AI & Automation": 0.04,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 370,
+    "cost": 6.027e-05
+   }
+  },
+  {
+   "activity_urn": "demo0182",
+   "author": "Robin Novak",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Our organic traffic doubled after we fixed internal links. The checklist inside.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "SEO & Search": 1,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 678,
+    "cost": 5.0148e-05
+   }
+  },
+  {
+   "activity_urn": "demo0183",
+   "author": "Drew Rossi",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.8,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Content & Creator": 0.17,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.83,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 670,
+    "cost": 4.011e-05
+   }
+  },
+  {
+   "activity_urn": "demo0184",
+   "author": "Noa Park",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.91,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.92,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0.08,
+    "Other": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 412,
+    "cost": 4.5738e-05
+   }
+  },
+  {
+   "activity_urn": "demo0185",
+   "author": "Iker Okafor",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 368,
+    "cost": 3.549e-05
+   }
+  },
+  {
+   "activity_urn": "demo0186",
+   "author": "Robin Chen",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.91,
+   "probabilities": {
+    "AI & Automation": 0.92,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0.08,
+    "Career & Mindset": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 357,
+    "cost": 3.5028e-05
+   }
+  },
+  {
+   "activity_urn": "demo0187",
+   "author": "Theo Lind",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.81,
+   "probabilities": {
+    "Content & Creator": 0.16,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Other": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0.84,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 376,
+    "cost": 4.4268e-05
+   }
+  },
+  {
+   "activity_urn": "demo0188",
+   "author": "Iker Okafor",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 359,
+    "cost": 5.4432e-05
+   }
+  },
+  {
+   "activity_urn": "demo0189",
+   "author": "Jamie Park",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "AI & Automation": 1,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 623,
+    "cost": 4.9938e-05
+   }
+  },
+  {
+   "activity_urn": "demo0190",
+   "author": "Lena Varga",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 438,
+    "cost": 4.1706e-05
+   }
+  },
+  {
+   "activity_urn": "demo0191",
+   "author": "Morgan Chen",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Our first 1,000 users came from one channel. Here's which.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.95,
+   "probabilities": {
+    "Design & UX": 0,
+    "Other": 0,
+    "AI & Automation": 0,
+    "Growth & Marketing": 0.96,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0.04,
+    "Dev & Product": 0,
+    "Content & Creator": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 371,
+    "cost": 5.1156e-05
+   }
+  },
+  {
+   "activity_urn": "demo0192",
+   "author": "Marta Nilsen",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.7,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.27,
+    "Dev & Product": 0.73,
+    "Growth & Marketing": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 391,
+    "cost": 5.8674e-05
+   }
+  },
+  {
+   "activity_urn": "demo0193",
+   "author": "Kai Costa",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 904,
+    "cost": 4.6578e-05
+   }
+  },
+  {
+   "activity_urn": "demo0194",
+   "author": "Taylor Tanaka",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 657,
+    "cost": 4.0236e-05
+   }
+  },
+  {
+   "activity_urn": "demo0195",
+   "author": "Iker Silva",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 356,
+    "cost": 4.3764e-05
+   }
+  },
+  {
+   "activity_urn": "demo0196",
+   "author": "Lucia Chen",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.94,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 0.95,
+    "Design & UX": 0,
+    "Dev & Product": 0.05
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 477,
+    "cost": 3.969e-05
+   }
+  },
+  {
+   "activity_urn": "demo0197",
+   "author": "Jamie Chen",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Our organic traffic doubled after we fixed internal links. The checklist inside.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 0.99,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0.99,
+    "Dev & Product": 0,
+    "AI & Automation": 0.01,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 352,
+    "cost": 4.5402e-05
+   }
+  },
+  {
+   "activity_urn": "demo0198",
+   "author": "Avery Varga",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.91,
+   "probabilities": {
+    "Business & Strategy": 0.06,
+    "AI & Automation": 0,
+    "SEO & Search": 0,
+    "Career & Mindset": 0.02,
+    "Content & Creator": 0,
+    "Dev & Product": 0.92,
+    "Other": 0,
+    "Design & UX": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 351,
+    "cost": 3.1122e-05
+   }
+  },
+  {
+   "activity_urn": "demo0199",
+   "author": "Jordan Weber",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 806,
+    "cost": 3.5406e-05
+   }
+  },
+  {
+   "activity_urn": "demo0200",
+   "author": "Avery Tanaka",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.96,
+   "probabilities": {
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.96,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0.04,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 424,
+    "cost": 5.6154e-05
+   }
+  },
+  {
+   "activity_urn": "demo0201",
+   "author": "Lucia Weber",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Stop building features nobody asked for. How we decide now.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.44,
+   "probabilities": {
+    "Dev & Product": 0.49,
+    "Design & UX": 0.02,
+    "AI & Automation": 0.34,
+    "Career & Mindset": 0.03,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Other": 0.01,
+    "Content & Creator": 0.1,
+    "Growth & Marketing": 0.01
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 594,
+    "cost": 2.877e-05
+   }
+  },
+  {
+   "activity_urn": "demo0202",
+   "author": "Robin Tanaka",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 1,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 323,
+    "cost": 3.2256e-05
+   }
+  },
+  {
+   "activity_urn": "demo0203",
+   "author": "Jamie Tanaka",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 375,
+    "cost": 8.148e-05
+   }
+  },
+  {
+   "activity_urn": "demo0204",
+   "author": "Quinn Chen",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "2yr •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.99,
+   "probabilities": {
+    "AI & Automation": 0,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0.01,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0.99,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 639,
+    "cost": 5.4894e-05
+   }
+  },
+  {
+   "activity_urn": "demo0205",
+   "author": "Marta Varga",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Stop building features nobody asked for. How we decide now.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.96,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.02,
+    "Dev & Product": 0.97,
+    "Business & Strategy": 0.01,
+    "Content & Creator": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 336,
+    "cost": 3.0786e-05
+   }
+  },
+  {
+   "activity_urn": "demo0206",
+   "author": "Jamie Varga",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Our organic traffic doubled after we fixed internal links. The checklist inside.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 1,
+    "Dev & Product": 0,
+    "AI & Automation": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "Design & UX": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 399,
+    "cost": 4.1328e-05
+   }
+  },
+  {
+   "activity_urn": "demo0207",
+   "author": "Marta Chen",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Business & Strategy": 0,
+    "Other": 0,
+    "SEO & Search": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "Design & UX": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 380,
+    "cost": 4.4772e-05
+   }
+  },
+  {
+   "activity_urn": "demo0208",
+   "author": "Noa Lind",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Our organic traffic doubled after we fixed internal links. The checklist inside.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 1,
+   "probabilities": {
+    "Growth & Marketing": 0,
+    "AI & Automation": 0,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "SEO & Search": 1,
+    "Design & UX": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 396,
+    "cost": 4.3428e-05
+   }
+  },
+  {
+   "activity_urn": "demo0209",
+   "author": "Alex Weber",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "We shipped the MVP in 6 weeks. The stack and the trade-offs.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Dev & Product",
+   "confidence": 0.84,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Dev & Product": 0.85,
+    "Other": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 0.06,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0.09,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 346,
+    "cost": 3.4482e-05
+   }
+  },
+  {
+   "activity_urn": "demo0210",
+   "author": "Marta Okafor",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Why we raised prices twice in one year.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 1,
+   "probabilities": {
+    "AI & Automation": 0,
+    "Career & Mindset": 0,
+    "Business & Strategy": 1,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 419,
+    "cost": 4.536e-05
+   }
+  },
+  {
+   "activity_urn": "demo0211",
+   "author": "Jamie Costa",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 509,
+    "cost": 3.528e-05
+   }
+  },
+  {
+   "activity_urn": "demo0212",
+   "author": "Quinn Silva",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.98,
+   "probabilities": {
+    "AI & Automation": 0.98,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0.01,
+    "Other": 0,
+    "SEO & Search": 0.01
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 601,
+    "cost": 3.696e-05
+   }
+  },
+  {
+   "activity_urn": "demo0213",
+   "author": "Casey Tanaka",
+   "author_url": null,
+   "author_headline": "Creator and writer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "AI & Automation": 1,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Business & Strategy": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 418,
+    "cost": 5.334e-05
+   }
+  },
+  {
+   "activity_urn": "demo0214",
+   "author": "Sam Moreau",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 0.99,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Content & Creator": 0.01,
+    "Other": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 361,
+    "cost": 3.9312e-05
+   }
+  },
+  {
+   "activity_urn": "demo0215",
+   "author": "Riley Rivera",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 1,
+    "Dev & Product": 0,
+    "SEO & Search": 0,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 780,
+    "cost": 3.8094e-05
+   }
+  },
+  {
+   "activity_urn": "demo0216",
+   "author": "Sam Chen",
+   "author_url": null,
+   "author_headline": "Product designer",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.97,
+   "probabilities": {
+    "Other": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "Business & Strategy": 0,
+    "AI & Automation": 0.97,
+    "Growth & Marketing": 0.03,
+    "Design & UX": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 382,
+    "cost": 3.5112e-05
+   }
+  },
+  {
+   "activity_urn": "demo0217",
+   "author": "Lena Duarte",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The landing page test that lifted signups 38%.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Growth & Marketing",
+   "confidence": 0.94,
+   "probabilities": {
+    "AI & Automation": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Growth & Marketing": 0.95,
+    "Business & Strategy": 0,
+    "Design & UX": 0.05,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 380,
+    "cost": 6.4008e-05
+   }
+  },
+  {
+   "activity_urn": "demo0218",
+   "author": "Casey Duarte",
+   "author_url": null,
+   "author_headline": "Indie hacker",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.92,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0.03,
+    "Growth & Marketing": 0.04,
+    "Career & Mindset": 0,
+    "AI & Automation": 0.93,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 697,
+    "cost": 4.5864e-05
+   }
+  },
+  {
+   "activity_urn": "demo0219",
+   "author": "Iker Costa",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "The hook formula behind my last 10 posts.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.76,
+   "probabilities": {
+    "Other": 0,
+    "AI & Automation": 0.06,
+    "SEO & Search": 0,
+    "Career & Mindset": 0.02,
+    "Content & Creator": 0.78,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0.14,
+    "Design & UX": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 372,
+    "cost": 3.9774e-05
+   }
+  },
+  {
+   "activity_urn": "demo0220",
+   "author": "Kai Lind",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "How AI Overviews changed which pages get clicks.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 0.95,
+   "probabilities": {
+    "Other": 0,
+    "SEO & Search": 0.96,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0.04,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 385,
+    "cost": 3.822e-05
+   }
+  },
+  {
+   "activity_urn": "demo0221",
+   "author": "Casey Silva",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 0.99,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0.01,
+    "Design & UX": 0,
+    "Other": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 355,
+    "cost": 4.6704e-05
+   }
+  },
+  {
+   "activity_urn": "demo0222",
+   "author": "Avery Novak",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "3yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Other": 0,
+    "SEO & Search": 0,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 488,
+    "cost": 3.2172e-05
+   }
+  },
+  {
+   "activity_urn": "demo0223",
+   "author": "Taylor Okafor",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "AI & Automation": 1,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Growth & Marketing": 0,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 510,
+    "cost": 3.3222e-05
+   }
+  },
+  {
+   "activity_urn": "demo0224",
+   "author": "Quinn Varga",
+   "author_url": null,
+   "author_headline": "Growth lead at a B2B SaaS",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Dev & Product": 0,
+    "Design & UX": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 1
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 512,
+    "cost": 6.2034e-05
+   }
+  },
+  {
+   "activity_urn": "demo0225",
+   "author": "Marta Okafor",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Agents are not magic. Here is what broke when we put one in production.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Content & Creator": 0,
+    "SEO & Search": 0,
+    "Career & Mindset": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Dev & Product": 0.01,
+    "AI & Automation": 0.99,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 480,
+    "cost": 3.3894e-05
+   }
+  },
+  {
+   "activity_urn": "demo0226",
+   "author": "Lena Okafor",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "SEO & Search": 0,
+    "AI & Automation": 1,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Dev & Product": 0,
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 382,
+    "cost": 3.339e-05
+   }
+  },
+  {
+   "activity_urn": "demo0227",
+   "author": "Marta Rivera",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "none",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 1,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0,
+    "Dev & Product": 0,
+    "AI & Automation": 1,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 386,
+    "cost": 4.7124e-05
+   }
+  },
+  {
+   "activity_urn": "demo0228",
+   "author": "Kai Chen",
+   "author_url": null,
+   "author_headline": "Marketing advisor for startups",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "Why we raised prices twice in one year.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Business & Strategy",
+   "confidence": 0.93,
+   "probabilities": {
+    "Dev & Product": 0,
+    "SEO & Search": 0.04,
+    "Growth & Marketing": 0.01,
+    "Design & UX": 0,
+    "Content & Creator": 0,
+    "Other": 0,
+    "Business & Strategy": 0.95,
+    "AI & Automation": 0,
+    "Career & Mindset": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 358,
+    "cost": 5.8674e-05
+   }
+  },
+  {
+   "activity_urn": "demo0229",
+   "author": "Lena Novak",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "How AI Overviews changed which pages get clicks.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "SEO & Search",
+   "confidence": 1,
+   "probabilities": {
+    "Dev & Product": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Business & Strategy": 0,
+    "Growth & Marketing": 0,
+    "SEO & Search": 1,
+    "Design & UX": 0,
+    "AI & Automation": 0,
+    "Content & Creator": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 450,
+    "cost": 3.1416e-05
+   }
+  },
+  {
+   "activity_urn": "demo0230",
+   "author": "Riley Novak",
+   "author_url": null,
+   "author_headline": "Engineer writing about AI",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Design & UX": 0.01,
+    "Content & Creator": 0,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "AI & Automation": 0.99,
+    "Dev & Product": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 393,
+    "cost": 3.8892e-05
+   }
+  },
+  {
+   "activity_urn": "demo0231",
+   "author": "Avery Duarte",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "7 prompts I use every day to ship faster with AI.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.99,
+   "probabilities": {
+    "Content & Creator": 0,
+    "Career & Mindset": 0,
+    "Dev & Product": 0.01,
+    "Business & Strategy": 0,
+    "Design & UX": 0,
+    "Other": 0,
+    "Growth & Marketing": 0,
+    "SEO & Search": 0,
+    "AI & Automation": 0.99
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 318,
+    "cost": 3.9942e-05
+   }
+  },
+  {
+   "activity_urn": "demo0232",
+   "author": "Robin Rossi",
+   "author_url": null,
+   "author_headline": "SEO consultant",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "I replaced three manual reports with one agent workflow. Here is the exact setup.",
+   "media_type": "image",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "AI & Automation",
+   "confidence": 0.98,
+   "probabilities": {
+    "AI & Automation": 0.98,
+    "Career & Mindset": 0,
+    "SEO & Search": 0,
+    "Other": 0,
+    "Design & UX": 0,
+    "Business & Strategy": 0.01,
+    "Dev & Product": 0.01,
+    "Content & Creator": 0,
+    "Growth & Marketing": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 408,
+    "cost": 3.3096e-05
+   }
+  },
+  {
+   "activity_urn": "demo0233",
+   "author": "Mila Novak",
+   "author_url": null,
+   "author_headline": "Founder building in public",
+   "avatar_url": null,
+   "post_age": "1yr •",
+   "post_text": "How I write one post a day without burning out.",
+   "media_type": "video",
+   "media_thumb_url": null,
+   "post_url": "",
+   "category": "Content & Creator",
+   "confidence": 0.99,
+   "probabilities": {
+    "Design & UX": 0,
+    "Growth & Marketing": 0.01,
+    "Business & Strategy": 0,
+    "Career & Mindset": 0,
+    "Other": 0,
+    "Content & Creator": 0.99,
+    "Dev & Product": 0,
+    "AI & Automation": 0,
+    "SEO & Search": 0
+   },
+   "_jev": {
+    "model": "typesafe-ai/jev",
+    "latency_ms": 331,
+    "cost": 2.9736e-05
+   }
+  }
+ ],
+ "models": [
+  "typesafe-ai/jev"
+ ],
+ "cost_usd": 0.009773,
+ "elapsed_ms": 103255
+}
