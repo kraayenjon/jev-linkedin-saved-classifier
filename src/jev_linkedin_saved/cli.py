@@ -266,51 +266,79 @@ def press(session, view, button):
 
 
 def read_all(target, max_steps):
-    """Read every saved post: scroll through each page, press "Show more results",
-    repeat until the button is gone and scrolling finds nothing new.
+    """Read every saved post: scroll through the list, press "Show more results" when it
+    shows, until the button is gone and scrolling finds nothing new.
 
-    Returns (rows, True if max_steps ran out first)."""
+    Returns (rows, True if reading stopped before the list ended). Posts already read are
+    kept when Chrome stops answering or you press Ctrl+C."""
     posts, order = {}, []
-    still, capped = 0, False
+    still, stuck = 0, 0
     with attached(target) as session:
-        for step in range(max_steps):
-            data = extract(target, session)
-            if data.get("error"):
-                raise SystemExit(f"Extraction failed: {data['error']}")
-            new = 0
-            for row in data["rows"]:
-                if row["activity_urn"] not in posts:
-                    posts[row["activity_urn"]] = row
-                    order.append(row["activity_urn"])
-                    new += 1
-            if new:
-                still = 0
-                print(f"  read {len(order)} posts")
-            else:
-                still += 1
+        try:
+            for step in range(max_steps):
+                try:
+                    still = read_step(target, session, step, posts, order, still)
+                    stuck = 0
+                except TimeoutError:
+                    # Chrome holds input events for a tab that is not visible
+                    stuck += 1
+                    if stuck >= 3:
+                        print("  Chrome stopped answering; keeping the posts read so far")
+                        return [posts[u] for u in order], True
+                    wait_until_visible(session)
+                if still is None:
+                    return [posts[u] for u in order], False
+        except KeyboardInterrupt:
+            print("\n  stopped reading; keeping the posts read so far")
+            return [posts[u] for u in order], True
+    return [posts[u] for u in order], True
 
-            if step and step % 15 == 0:
-                pause(5, 12)  # a longer break now and then
-            view = evaluate(session, BUTTON_JS)
-            button = view["button"]
-            if button and 0 < button["y"] < view["vh"] * 0.85:
-                pause(0.8, 2.2)  # a person looks at the button before pressing it
-                press(session, view, button)
-                still = 0
-                pause(2.5, 5.0)  # wait for the next page to render
-                continue
-            if still >= (6 if button else 4):
-                break  # the list ended, or the button stopped responding
-            if button:
-                # head for the button, a screen at most at a time
-                distance = max(-700, min(700, button["y"] - view["vh"] * 0.5))
-            else:
-                distance = view["vh"] * random.uniform(0.55, 0.9)
-            wheel(session, view, distance)
-            pause(1.2, 3.0)  # reading pace
-        else:
-            capped = True
-    return [posts[u] for u in order], capped
+
+def wait_until_visible(session):
+    if evaluate(session, "JSON.stringify(document.visibilityState)") == "visible":
+        return
+    print("  the LinkedIn tab is not in front: bring it back and reading continues…")
+    while evaluate(session, "JSON.stringify(document.visibilityState)") != "visible":
+        time.sleep(1)
+
+
+def read_step(target, session, step, posts, order, still):
+    """One read, then one scroll or one button press. Returns the new idle count, or
+    None when the list has ended."""
+    data = extract(target, session)
+    if data.get("error"):
+        raise SystemExit(f"Extraction failed: {data['error']}")
+    new = 0
+    for row in data["rows"]:
+        if row["activity_urn"] not in posts:
+            posts[row["activity_urn"]] = row
+            order.append(row["activity_urn"])
+            new += 1
+    if new:
+        still = 0
+        print(f"  read {len(order)} posts")
+    else:
+        still += 1
+
+    if step and step % 15 == 0:
+        pause(5, 12)  # a longer break now and then
+    view = evaluate(session, BUTTON_JS)
+    button = view["button"]
+    if button and 0 < button["y"] < view["vh"] * 0.85:
+        pause(0.8, 2.2)  # a person looks at the button before pressing it
+        press(session, view, button)
+        pause(2.5, 5.0)  # wait for the next page to render
+        return 0
+    if still >= (6 if button else 4):
+        return None  # the list ended, or the button stopped responding
+    if button:
+        # head for the button, a screen at most at a time
+        distance = max(-700, min(700, button["y"] - view["vh"] * 0.5))
+    else:
+        distance = view["vh"] * random.uniform(0.55, 0.9)
+    wheel(session, view, distance)
+    pause(1.2, 3.0)  # reading pace
+    return still
 
 
 def build_question(row):
@@ -806,7 +834,7 @@ def main():
     rows, capped = read_all(target, args.max_steps)
     print(f"read {len(rows)} posts in {time.perf_counter() - started:.1f}s")
     if capped:
-        print(f"  note: stopped at the --max-steps cap ({args.max_steps}) with more posts left")
+        print("  note: reading stopped before the end of the list; run again later for the rest")
 
     # --- classify with Jev, streaming each post to the live dashboard ---
     bus, server = dashboard.Bus(), None
