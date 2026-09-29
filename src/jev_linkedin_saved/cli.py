@@ -662,9 +662,12 @@ def setup_key():
     print("\nJev needs one API key: a Vercel AI Gateway key (https://vercel.com/ai-gateway) or a TypeSafe key.")
     kind = ask("Which one do you have? [1] Vercel AI Gateway  [2] TypeSafe  (1): ", "1")
     name = "TYPESAFE_API_KEY" if kind == "2" else "AI_GATEWAY_API_KEY"
-    key = getpass.getpass(f"Paste your {name} (hidden): ").strip()
+    # arrow keys pressed in the hidden prompt leave escape codes like "\x1b[D" in the key
+    key = re.sub(r"\x1b\[[0-9;]*[A-Za-z]|\s", "", getpass.getpass(f"Paste your {name} (hidden): "))
     if not key:
         raise SystemExit("No key given. Run again when you have one, or use --no-classify to only read posts.")
+    if not key.isprintable():
+        raise SystemExit("That key has hidden characters. Paste it again without using the arrow keys.")
     env = Path(".env")
     with env.open("a", encoding="utf-8") as fh:
         fh.write(f"\n{name}={key}\n")
@@ -824,13 +827,15 @@ def main():
             result = classify(row)
             row.update(category=result["category"], confidence=result["confidence"],
                        probabilities=result["probabilities"])
-            row["_jev"] = {k: result[k] for k in ("model", "latency_ms", "cost", "input_tokens", "output_tokens")}
+            row["_jev"] = {k: result.get(k) for k in ("model", "latency_ms", "cost", "input_tokens", "output_tokens")}
             cost += result["cost"] or 0
             jev_ms += result["latency_ms"] or 0
             bus.publish({"type": "post", "post": dashboard.post_card(row, i),
                          "probabilities": result["probabilities"], "ms": result["latency_ms"]})
+            if result.get("error"):
+                print(f"  post {i} failed: {result['error']}")
             if i == 3 and all(r.get("category") == "(failed)" for r in todo[:3]):
-                raise SystemExit(f"Jev failed on the first 3 posts: {result.get('error')}")
+                raise SystemExit("Jev failed on the first 3 posts. Check the key in .env, then run again.")
             if i % 25 == 0 or i == len(todo):
                 print(f"  {i}/{len(todo)}  ${cost:.4f}  {row['category']}")
 
