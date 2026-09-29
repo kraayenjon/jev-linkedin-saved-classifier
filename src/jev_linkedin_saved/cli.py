@@ -265,7 +265,7 @@ def press(session, view, button):
         pause(0.05, 0.14)
 
 
-def read_all(target, max_steps):
+def read_all(target, max_steps, limit=0):
     """Read every saved post: scroll through the list, press "Show more results" when it
     shows, until the button is gone and scrolling finds nothing new.
 
@@ -278,6 +278,8 @@ def read_all(target, max_steps):
             for step in range(max_steps):
                 try:
                     still = read_step(target, session, step, posts, order, still)
+                    if limit and len(order) >= limit:
+                        return [posts[u] for u in order[:limit]], False
                     stuck = 0
                 except TimeoutError:
                     # Chrome holds input events for a tab that is not visible
@@ -773,7 +775,8 @@ def main():
     parser.add_argument("--demo", action="store_true",
                         help="replay a bundled sample run: no Chrome and no Jev key needed")
     parser.add_argument("--demo-seconds", type=int, default=15, help="length of the --demo replay (default 15)")
-    parser.add_argument("--limit", type=int, default=0, help="classify at most N posts (0 = all)")
+    parser.add_argument("--limit", type=int, default=0, metavar="N",
+                        help="only your N most recently saved posts: read and classify N, then stop (0 = all)")
     parser.add_argument("--no-classify", action="store_true", help="only read the posts, no Jev calls")
     parser.add_argument("--from-json", metavar="RUN_JSON", help="rebuild csv/html from a run json, no Chrome or Jev")
     parser.add_argument("--replay", metavar="RUN_JSON", help="replay a finished run on the animated dashboard")
@@ -823,7 +826,9 @@ def main():
     admin.ensure_daemon()
     target, url = open_saved_tab()
     print(f"  saved posts tab ready: {url}")
-    print("\nThe tool now scrolls your saved list and presses 'Show more results' at a person's pace.\n"
+    print(f"\nReading {f'your {args.limit} most recent saved posts' if args.limit else 'all your saved posts'}"
+          + ("" if args.limit else " (use --limit N for only the newest N)") + ".")
+    print("The tool now scrolls your saved list and presses 'Show more results' at a person's pace.\n"
           "Keep the LinkedIn tab in front and don't use the mouse on it until reading is done.")
     if not args.no_classify:
         print("Then Jev classifies each post and the live dashboard opens in your browser.")
@@ -831,7 +836,7 @@ def main():
         return
 
     # --- read the whole list, at a person's pace ---
-    rows, capped = read_all(target, args.max_steps)
+    rows, capped = read_all(target, args.max_steps, args.limit)
     print(f"read {len(rows)} posts in {time.perf_counter() - started:.1f}s")
     if capped:
         print("  note: reading stopped before the end of the list; run again later for the rest")
@@ -841,9 +846,8 @@ def main():
     cost, jev_ms = 0.0, 0
     if not args.no_classify:
         server = dashboard.serve(bus, list(TAGS), args.port, headline=args.headline)
-        todo = rows[:args.limit] if args.limit else rows
-        print(f"classifying {len(todo)} posts with Jev…")
-        for i, row in enumerate(todo, 1):
+        print(f"classifying {len(rows)} posts with Jev…")
+        for i, row in enumerate(rows, 1):
             result = classify(row)
             row.update(category=result["category"], confidence=result["confidence"],
                        probabilities=result["probabilities"])
@@ -854,10 +858,10 @@ def main():
                          "probabilities": result["probabilities"], "ms": result["latency_ms"]})
             if result.get("error"):
                 print(f"  post {i} failed: {result['error']}")
-            if i == 3 and all(r.get("category") == "(failed)" for r in todo[:3]):
+            if i == 3 and all(r.get("category") == "(failed)" for r in rows[:3]):
                 raise SystemExit("Jev failed on the first 3 posts. Check the key in .env, then run again.")
-            if i % 25 == 0 or i == len(todo):
-                print(f"  {i}/{len(todo)}  ${cost:.4f}  {row['category']}")
+            if i % 25 == 0 or i == len(rows):
+                print(f"  {i}/{len(rows)}  ${cost:.4f}  {row['category']}")
 
     for row in rows:
         row.setdefault("category", "(not classified)")
@@ -905,11 +909,11 @@ def serve_html(html_path, port):
     preview iframes blank. Over http://127.0.0.1 they load normally."""
     import functools
     import webbrowser
-    from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+    from http.server import SimpleHTTPRequestHandler
 
     handler = functools.partial(SimpleHTTPRequestHandler, directory=str(RUNS))
     try:
-        httpd = ThreadingHTTPServer(("127.0.0.1", port), handler)
+        httpd = dashboard.Server(("127.0.0.1", port), handler)
     except OSError as error:
         raise SystemExit(f"port {port} is busy ({error}); try --port 8778") from None
     url = f"http://127.0.0.1:{port}/{html_path.name}"

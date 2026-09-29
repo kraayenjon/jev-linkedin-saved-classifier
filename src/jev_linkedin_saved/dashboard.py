@@ -11,6 +11,7 @@ page animates while the run happens.
 
 import json
 import queue
+import sys
 import threading
 import webbrowser
 from collections import Counter
@@ -18,6 +19,14 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 DEFAULT_HEADLINE = "your saved posts, sorted"
+
+
+class Server(ThreadingHTTPServer):
+    """Quiet when a browser tab closes mid-request; that is normal, not an error."""
+
+    def handle_error(self, request, client_address):
+        if not isinstance(sys.exc_info()[1], ConnectionError):
+            super().handle_error(request, client_address)
 
 
 class Bus:
@@ -444,7 +453,7 @@ def serve(bus, tags, port, headline=DEFAULT_HEADLINE, subtitle=None, open_browse
                             continue
                         self.wfile.write(payload.encode("utf-8"))
                         self.wfile.flush()
-                except (BrokenPipeError, ConnectionResetError):
+                except ConnectionError:
                     pass
                 finally:
                     bus.unsubscribe(channel)
@@ -468,7 +477,7 @@ def serve(bus, tags, port, headline=DEFAULT_HEADLINE, subtitle=None, open_browse
             self.end_headers()
 
     try:
-        server = ThreadingHTTPServer(("127.0.0.1", port), Handler)
+        server = Server(("127.0.0.1", port), Handler)
     except OSError as error:
         raise SystemExit(f"port {port} is busy ({error}); try --port {port + 1}") from None
     server.board = None  # set to the board html path once the run is written

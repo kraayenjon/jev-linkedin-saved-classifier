@@ -83,7 +83,7 @@ more than about once a day.
 | --- | --- |
 | `--open` | Open the board of your last run. |
 | `--demo` | Replay a sample run on the dashboard. No Chrome, no key. |
-| `--limit N` | Classify at most N posts (0 = all). |
+| `--limit N` | Only your N most recently saved posts: read and classify N, then stop (0 = all). |
 | `--no-classify` | Only read the posts; no Jev calls. |
 | `--from-json FILE` | Rebuild csv/html from a run's JSON. No browser, no Jev. |
 | `--replay FILE` | Replay a finished run on the dashboard (`--speed S` to fit it in S seconds). |

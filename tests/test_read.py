@@ -6,7 +6,7 @@ from unittest import mock
 from jev_linkedin_saved import cli
 
 
-def run(steps, visibility=("visible",)):
+def run(steps, visibility=("visible",), limit=0):
     """steps: per call, 'post' (reads one post), 'timeout', 'ctrl-c' or 'end'."""
     steps, seen = iter(steps), iter(visibility)
 
@@ -26,7 +26,7 @@ def run(steps, visibility=("visible",)):
          mock.patch.object(cli, "read_step", step), \
          mock.patch.object(cli, "evaluate", lambda s, e: next(seen)), \
          mock.patch.object(cli.time, "sleep"):
-        rows, stopped_early = cli.read_all("T", 50)
+        rows, stopped_early = cli.read_all("T", 50, limit)
     return len(rows), stopped_early
 
 
@@ -37,4 +37,6 @@ assert run(["post", "timeout", "post", "end"], visibility=("hidden", "hidden", "
 assert run(["post", "timeout", "timeout", "timeout"], visibility=("visible",) * 3) == (1, True)
 # Ctrl+C keeps what was read
 assert run(["post", "post", "ctrl-c"]) == (2, True)
+# --limit stops reading once it has the newest N posts
+assert run(["post"] * 5, limit=3) == (3, False)
 print("ok")
