@@ -71,7 +71,7 @@ The tool is deliberately conservative, because your account matters more than th
 - The only button it presses is "Show more results". No posts, profiles, or links.
 - No per-post page loads and no calls to LinkedIn's API: only the list page you see.
 - One action at a time, with random pauses: 1.2–3 s between scrolls, 2.5–5 s after each
-  "Show more results", and a longer 5–12 s break every 5 pages.
+  "Show more results", and a longer 5–12 s break every 15 steps.
 - The board's preview embeds load at most two at a time, only for posts you scroll to.
 
 No tool can promise LinkedIn will never flag an account. Run it on your own account, not

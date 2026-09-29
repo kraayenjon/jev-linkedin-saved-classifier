@@ -162,8 +162,6 @@ EXTRACT_JS = r"""
       post_url: 'https://www.linkedin.com/feed/update/urn:li:activity:' + urn + '/',
     });
   }
-  const body = (d.body.innerText || '').replace(/\s+/g, ' ');
-  const count = (body.match(/(\d[\d,]*)\s+saved/i) || [])[0] || null;
   const se = d.scrollingElement || d.documentElement;
   const scroll = {
     top: se.scrollTop || 0,
@@ -173,7 +171,7 @@ EXTRACT_JS = r"""
       .map(e => (e.innerText || '').trim())
       .filter(t => /show more results|load more/i.test(t))[0] || null,
   };
-  return JSON.stringify({ rows, count, scroll });
+  return JSON.stringify({ rows, scroll });
 })()
 """
 
@@ -271,15 +269,14 @@ def read_all(target, max_steps):
     """Read every saved post: scroll through each page, press "Show more results",
     repeat until the button is gone and scrolling finds nothing new.
 
-    Returns (rows, count LinkedIn reports, True if max_steps ran out first)."""
+    Returns (rows, True if max_steps ran out first)."""
     posts, order = {}, []
-    reported, pages, still, capped = None, 1, 0, False
+    still, capped = 0, False
     with attached(target) as session:
         for step in range(max_steps):
             data = extract(target, session)
             if data.get("error"):
                 raise SystemExit(f"Extraction failed: {data['error']}")
-            reported = data.get("count") or reported
             new = 0
             for row in data["rows"]:
                 if row["activity_urn"] not in posts:
@@ -288,23 +285,19 @@ def read_all(target, max_steps):
                     new += 1
             if new:
                 still = 0
-                print(f"  read {len(order)} posts (page {pages})")
+                print(f"  read {len(order)} posts")
             else:
                 still += 1
-            total = int(re.sub(r"\D", "", reported)) if reported and re.search(r"\d", reported) else None
-            if total and len(order) >= total:
-                break
 
+            if step and step % 15 == 0:
+                pause(5, 12)  # a longer break now and then
             view = evaluate(session, BUTTON_JS)
             button = view["button"]
             if button and 0 < button["y"] < view["vh"] * 0.85:
                 pause(0.8, 2.2)  # a person looks at the button before pressing it
                 press(session, view, button)
-                pages += 1
                 still = 0
                 pause(2.5, 5.0)  # wait for the next page to render
-                if pages % 5 == 0:
-                    pause(5, 12)  # a longer break now and then
                 continue
             if still >= (6 if button else 4):
                 break  # the list ended, or the button stopped responding
@@ -317,7 +310,7 @@ def read_all(target, max_steps):
             pause(1.2, 3.0)  # reading pace
         else:
             capped = True
-    return [posts[u] for u in order], reported, capped
+    return [posts[u] for u in order], capped
 
 
 def build_question(row):
@@ -810,9 +803,8 @@ def main():
         return
 
     # --- read the whole list, at a person's pace ---
-    rows, reported, capped = read_all(target, args.max_steps)
-    print(f"read {len(rows)} posts in {time.perf_counter() - started:.1f}s"
-          + (f" (LinkedIn reports {reported})" if reported else ""))
+    rows, capped = read_all(target, args.max_steps)
+    print(f"read {len(rows)} posts in {time.perf_counter() - started:.1f}s")
     if capped:
         print(f"  note: stopped at the --max-steps cap ({args.max_steps}) with more posts left")
 
@@ -849,7 +841,6 @@ def main():
     summary = {
         "source_url": url,
         "posts": len(rows),
-        "reported_by_linkedin": reported,
         "stopped_at_step_cap": capped,
         "category_distribution": {c: sum(1 for r in rows if r["category"] == c) for c in [*TAGS, "(failed)"]},
         "models": models,
