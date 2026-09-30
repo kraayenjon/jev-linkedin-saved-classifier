@@ -10,6 +10,12 @@ can search, filter, sort, and preview inline.
 Reading is plain DOM code through [browser-harness](https://pypi.org/project/browser-harness/).
 Classification is one Jev call per post.
 
+
+
+https://github.com/user-attachments/assets/dc65a91f-fbc0-42c9-88e3-c0a8e5a8c5cc
+
+
+
 **[Watch the demo (17 s)](assets/jev-linkedin-classifier-demo.mp4)**
 
 ```
