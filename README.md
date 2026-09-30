@@ -10,6 +10,8 @@ can search, filter, sort, and preview inline.
 Reading is plain DOM code through [browser-harness](https://pypi.org/project/browser-harness/).
 Classification is one Jev call per post.
 
+**[Watch the demo (17 s)](assets/jev-linkedin-classifier-demo.mp4)**
+
 ```
 open saved posts  ->  read every card  ->  one Jev call each  ->  live dashboard  ->  board + csv + json
 ```
@@ -135,3 +137,12 @@ affiliated with LinkedIn; use it on your own account and within LinkedIn's terms
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## More
+
+For more Jev use cases, visit [madewithjev.com](https://madewithjev.com).
+
+Built by Jon Kraayenbrink. Follow along:
+[X](https://x.com/kraayenjon) ·
+[Threads](https://www.threads.com/@kraayenjon) ·
+[LinkedIn](https://www.linkedin.com/in/jonathan-kraayenbrink)
